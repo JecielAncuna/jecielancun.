@@ -1,0 +1,123 @@
+*{
+
+    margin: 0;
+    padding: 0;;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #797979;
+    color: #0a0606;
+}
+
+header {
+    background-color: #fffaff;
+    color: #090707;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    background-color: #121111;
+    color: #ffffff;
+    
+}
+
+nav ul {
+    list-style: none;
+    background-color: #111111;
+    color: #f5f5f5;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.hero{
+    background-image:url(12.png);
+    color: #fefefe;
+    background-size: cover;
+   background-position: 0cqb;
+    text-align: center;
+    font-size: medium;
+    padding: 100px 20px;
+    color: hsla(0, 0%, 100%, 0.886);
+}
+
+.hero h2 {
+    font-size: medium;
+    margin-bottom: 10px;
+    color: #0e0d0d;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    color: #e4dfe1;
+}
+
+.hero button {
+    background-color: #131212;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #fefcfc;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    background-size: cover;
+}
+
+section h2 {
+    background-color: rgb(253, 250, 250);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+section p, section ul {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #171515;
+    color: rgb(243, 238, 238);
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #131212;
+    text-decoration: none;
+    text-align: left;
+}
